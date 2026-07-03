@@ -302,6 +302,7 @@
             <option value="adverb">adverb</option>
             <option value="preposition">preposition</option>
             <option value="conjunction">conjunction</option>
+            <option value="phrase">phrase</option>
           </select>
         </div>
       </div>
@@ -320,7 +321,7 @@
           <input id="inSuffix" type="text" placeholder="e.g. -al" autocomplete="off">
         </div>
       </div>
-      <div class="morph-hint">Optional. Breaking a word into parts makes it easier to remember and to guess related words later.</div>
+      <div class="morph-hint">Optional.</div>
 
       <div class="tag-row">
         <div class="field">
@@ -336,7 +337,7 @@
           <input id="inCat3" type="text" placeholder="#food" autocomplete="off">
         </div>
       </div>
-      <div class="tag-hint">Optional. Tag a word so you can filter the list by topic later.</div>
+      <div class="tag-hint">Optional.</div>
 
       <div class="field">
         <label>Meaning</label>
@@ -348,9 +349,6 @@
       </div>
       <button class="btn btn-primary" id="saveBtn">Add to Collection</button>
 
-      <div class="install-note">
-        <b>Tip — turn this into an app icon:</b> on iPhone, tap Share → Add to Home Screen. On Android Chrome, tap the ⋮ menu → Add to Home Screen / Install App. It'll open full-screen like a normal app. Your words are saved only in this browser on this device — nobody else can see them.
-      </div>
     </section>
 
     <!-- LIST TAB -->
@@ -397,9 +395,9 @@
           <button class="btn btn-sound" id="quizSoundBtn" title="Pronounce">🔊</button>
         </div>
         <div class="quiz-controls">
-          <button class="btn btn-unfamiliar" id="btnUnfamiliar">Unfamiliar<span class="pct">90% recurrence</span></button>
-          <button class="btn btn-know" id="btnKnow">Know it<span class="pct">50% recurrence</span></button>
-          <button class="btn btn-mastered" id="btnMastered">Mastered<span class="pct">10% recurrence</span></button>
+          <button class="btn btn-unfamiliar" id="btnUnfamiliar">Unfamiliar</button>
+          <button class="btn btn-know" id="btnKnow">Know it</button>
+          <button class="btn btn-mastered" id="btnMastered">Mastered</button>
         </div>
       </div>
     </section>
